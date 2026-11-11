@@ -7,7 +7,7 @@ from app.api.routes import auth, users, vehicles, rides, expenses, obd2, dashboa
 
 
 app = FastAPI(
-    title="DriverApp API",
+    title="DriverPay API",
     description="Sistema de Gestão Financeira para Motoristas de Aplicativo",
     version="1.0.0",
     swagger_ui_parameters={"persistAuthorization": True}

@@ -32,7 +32,7 @@ export default function Layout() {
   const navigate = useNavigate();
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const path = window.location.pathname;
-  const title = pageTitles[path] || "DriverApp";
+  const title = pageTitles[path] || "DriverPay";
 
   const handleLogout = () => { logout(); navigate("/login"); };
 
@@ -53,7 +53,7 @@ export default function Layout() {
             <Car size={20} color="white" />
           </div>
           <div>
-            <h1>DriverApp</h1>
+            <h1>DriverPay</h1>
             <span>Gestão de Motoristas</span>
           </div>
           <button className="sidebar-close-btn" onClick={() => setSidebarOpen(false)}>

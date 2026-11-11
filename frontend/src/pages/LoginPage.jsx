@@ -36,7 +36,7 @@ export default function LoginPage() {
         <div className="auth-logo">
           <div className="auth-logo-icon"><Car size={28} color="white" /></div>
           <div>
-            <h2 style={{ fontWeight: 700, fontSize: 20 }}>DriverApp</h2>
+            <h2 style={{ fontWeight: 700, fontSize: 20 }}>DriverPay</h2>
           </div>
         </div>
 
